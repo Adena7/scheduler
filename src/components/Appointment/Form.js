@@ -15,7 +15,6 @@ export default function Form(props) {
     props.onCancel();
     reset();
   }
-  console.log("inter", props.interviewers);
   return (
     <main className="appointment__card appointment__card--create">
       <section className="appointment__card-left">

@@ -21,3 +21,15 @@ export function getInterview(state, interview) {
     };
   }
 }
+
+export function getInterviewersForDay(state, day) {
+  const filteredAppointments = [];
+  state.days.forEach(element => {
+    if (element.name === day) {
+      element.interviewers.forEach(id => {
+        filteredAppointments.push(state.interviewers[id]);
+      });
+    }
+  });
+  return filteredAppointments;
+}
