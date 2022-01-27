@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import React, { useState } from 'react';
 
 export default function useVisualMode(initial) {
@@ -7,7 +6,7 @@ export default function useVisualMode(initial) {
 
   function transition(newMode, replace) {
     if (!replace) {
-      setHistory(prev => ([...prev, mode]))
+      setHistory((prev) => [...prev, newMode]);
     }
     setMode(newMode);
   }
