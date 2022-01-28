@@ -4,7 +4,7 @@ Using the latest tools and techniques, I built and test a React application that
 
 ## Screenshots
 
-!["Creating Appointments"] (https://github.com/Adena7/scheduler/blob/master/docs/Create-Appointment.gif?raw=true)
+!["Creating Appointments"] ()
 !["Edit Appointments"] ()
 !["Edit Appointments"] ()
 
