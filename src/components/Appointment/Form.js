@@ -16,10 +16,15 @@ export default function Form(props) {
     reset();
     props.onCancel();
   }
-
+  
+  // can only book appointment when a name is inputed and a interviewer is selected
   function validate() {
     if (student === "") {
       setError("Student name cannot be blank");
+      return;
+    }
+    if (interviewer === null) {
+      setError("An interviewer must be chosen");
       return;
     }
     setError("");
