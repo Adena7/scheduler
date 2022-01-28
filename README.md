@@ -4,8 +4,8 @@ Using the latest tools and techniques, I built and test a React application that
 
 ## Screenshots
 
-!["Appointments"] ()
-!["Delete Appointments"] ()
+!["Appointments"] (https://github.com/Adena7/scheduler/blob/master/docs/Appointments.png?raw=true)
+!["Delete Appointments"] (https://github.com/Adena7/scheduler/blob/master/docs/Delete-Appointment-confirmation.png?raw=true)
 
 ## Behavioural Features
 - Interviews can be booked between Monday and Friday.
